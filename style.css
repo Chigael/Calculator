@@ -2,10 +2,10 @@ body{
     background-color: #ffffe0;
 }
 .container{
-    margin:100px auto;
+    margin:80px auto;
     background-color: rgb(43, 41, 41);
     width: 295px;
-    height: 380px;
+    height: 400px;
     text-align: center;
     border-radius: 4px;
 }
@@ -25,11 +25,20 @@ input{
     font-size: 20px;
     font-weight: 500;
     box-shadow: 0 4px rgba(0,0,0,0.2);
+    border-radius: 10px
 }
+
+  #none{
+    background-color: transparent;
+    box-shadow: none;
+    
+} 
 
 #one {
 
     font-size: 30px;
+    background: #464749;
+    color: #ffffe0;
 }
 .operator{
     background-color: #bdbdbd;
@@ -38,9 +47,10 @@ input{
 
 #answer{
     width: 270px;
+    height: 70px;
     font-size: 26px;
     text-align: right;
-    background-color: #feffd5;
+    background-color: #f9d877;
     float: left;
     margin-top: 10px;
 }
@@ -63,7 +73,7 @@ input:hover{
     float: left;
     margin: 5px;
     font-size: 20px;
-    box-shadow: 0 4px #644294;
+    box-shadow: 0 4px #f9d877;
 }
 /* hover */
 .operator:hover{
@@ -74,17 +84,15 @@ input:hover{
 #clear:hover{
     float: left;
     display: block;
-    background-color: rgb(133, 108, 108);
-    margin-bottom: 15px;
+    background-color: #ffffe0;
     box-shadow: 0 4px #f9d877;
 }
 
 
 #clear{
     float: left;
-    width: 100px;
     position: relative;
     display: block;
     background-color: #bdbdbd;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
 }

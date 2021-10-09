@@ -17,6 +17,8 @@ btns.forEach((btn) => {
       screen.value = value;
     } else if (styles.contains("clear")) {
       screen.value = 0;
-    }
+    } else if (styles.contains("del")) {
+      screen.value = "";
+    } 
   });
 });
